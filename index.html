@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smile</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li class="logotipo">
+                        <a href="#inicio">SMILE</a>
+                    </li>
+                    <li class="hideMobile">
+                        <a href="#inicio">Início</a>
+                    </li>
+                    <li class="hideMobile">
+                        <a href="#academia">Academia</a>
+                    </li>
+                    <li class="hideMobile">
+                        <a href="#planos">Planos</a>
+                    </li>
+                    <li class="hideMobile"><a href="#contato">Contato</a></li>
+                    <li class="hideDesktop" onclick="showSidebar()"><a href="#">
+                        <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+                    </a></li>
+                </ul>
+                
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()""><a href="#">
+                    <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+                </a></li>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#academia">Academia</a></li>
+                    <li><a href="#planos">Planos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="inicio">
+                <div class="hero-conteudo">
+                    <h1>Smile Academia</h1>
+                    <h2>Definitivamente a sua academia.</h2>
+                    <p>Seu objetivo. Sua disciplina. Sua evolução.</p>
+                    <a href="#academia" class="btn-principal">Conheça a Smile</a>
+                </div>
+            </section>  
+            <section id="academia">
+                <!-- Imagem da academia -->
+                <div class="academia-imagem">
+                    <img src="images/smile.jpg" alt="Interior da academia Smile">
+                </div>
+                <!-- Conteudo Textual -->
+                <div class="academia-conteudo">
+                    <h2>
+                        Conheça a Smile
+                    </h2>
+                    <p>
+                        A prática regular de treinos é um pilar fundamental para quem busca saúde, longevidade e autonomia.
+                    </p>
+                    <p>
+                        Ao movimentar o corpo, ativamos processos biológicos essenciais que fortalecem músculos e protegem o coração,
+                        prevenindo lesões e doenças cardiovasculares.Além dos ganhos físicos, o impacto na mente é imediato.
+                        A liberação de endorfina gera bem-estar, alivia o estresse e melhora expressivamente a qualidade do sono.
+                    </p>
+                    <p>
+                        Cuidar de si mesmo é uma escolha diária que une disciplina e prazer.
+                    </p>
+                    <a href="#" class="btn-principal">Quero ser aluno</a>
+                </div>
+            </section>
+            <section id="planos">
+                <div class="planos-cabecalho">
+                    <h2>Planos Smile</h2>
+                    <p>
+                        Escolha o plano que combina com seu momento.
+                    </p>
+                </div>
+                <!--Plano Mensais-->
+                <div class="grupo-planos">
+                    <h3>Planos mensais</h3>
+                    <div class="planos-container">
+                        <!-- Planos Jovens -->
+                        <article class="plano">
+                            <h4>Jovens</h4>
+                            <p class="frase-plano">
+                                Plano destinado a estudantes.
+                            </p>
+                            <p class="taxa">
+                                Taxa de Matrícula:
+                                <strong>R$15,00</strong>
+                            </p>
+                            <p class="preco">
+                                R$80,00
+                                <span>/mês</span>
+                            </p>
+                            <p class="condicao">
+                                É necessário estar estudando.
+                            </p>
+                            <a href="#" class="btn-principal">
+                                Quero este plano
+                            </a>
+                        </article>
+                        <!-- Plano Universitario -->
+                        <article class="plano">
+                            <h4>Universitários</h4>
+                            <p class="frase-plano">
+                                Um hábito hoje, uma conquista para a vida.
+                            </p>
+                            <p class="taxa">
+                                Taxa de Matrícula:
+                                <strong>R$ 15,00</strong>
+                            </p>
+                            <p class="preco">
+                                R$ 75,00
+                                <span>/mês</span>
+                            </p>
+                            <a href="#" class="btn-principal">
+                                Quero este plano
+                            </a>
+                        </article>
+                        <!-- Plano Casais -->
+                        <article class="plano">
+                                <h4>Casais</h4>
+                                <p class="frase-plano">
+                                    O melhor plano é ter você aqui com quem te inspira.
+                                </p>
+                                <p class="taxa">
+                                    Taxa de Matrícula:
+                                    <strong>R$ 15,00</strong>
+                                </p>
+                                <p class="preco">
+                                    R$80,00
+                                    <span>/mês</span>
+                                </p>
+                                <a href="#" class="btn-principal">
+                                    Quero este plano
+                                </a>
+                        </article>
+                        <!-- Plano melhor idade -->
+                        <article class="plano">
+                                <h4>Melhor idade</h4>
+                                <p class="frase-plano">
+                                    Viver bem é a melhor escolha.
+                                </p>
+                                <p class="taxa">
+                                    Taxa de Matrícula:
+                                    <strong>R$ 15,00</strong>
+                                </p>
+                                <p class="preco">
+                                    R$ 75,00
+                                    <span>/mês</span>
+                                </p>
+                                <a href="#" class="btn-principal">
+                                    Quero este plano
+                                </a>
+                        </article>
+                    </div>
+                </div>
+                <!-- Planos Especiais -->
+                <div class="grupo-planos">
+                    <h3>Planos especiais</h3>
+                    <div class="planos-container">
+                        <!-- Pague 2 meses -->
+                        <article class="plano destaque">
+                            <span class="etiqueta">
+                                Ganhe 1 mês
+                            </span>
+                            <h4>Pague 2 meses</h4>
+                            <p class="frase-plano">
+                                Mais economia, mais resultado, mais você.
+                            </p>
+                            <p class="taxa">
+                                Taxa de Matrícula:
+                                <strong>R$ 15,00</strong>
+                            </p>
+                            <p class="preco">
+                                R$ 180,00
+                            </p>
+                            <p class="condicao">
+                                Pague 2 meses e ganhe o terceiro mês.
+                            </p>
+                            <a href="#" class="btn-principal">
+                                Quero este plano
+                            </a>
+                        </article>
+                        <!-- Super Plano -->
+                         <article class="plano destaque">
+                            <span class="etiqueta">
+                                Ganhe 3 meses
+                            </span>
+                            <h4>Super plano</h4>
+                            <p class="frase-plano">
+                                Melhor custo-benefício para cuidar de você.
+                            </p>
+                            <p class="taxa">
+                                Taxa de Matrícula:
+                                <strong>R$ 15,00</strong>
+                            </p>
+                            <p class="preco">
+                                R$ 270,00
+                            </p>
+                            <p class="condicao">
+                                Pague 3 meses e ganhe 3 meses.
+                            </p>
+                            <a href="#" class="btn-principal">
+                                Quero este plano
+                            </a>
+                         </article>
+                         <!-- Mega Plano -->
+                          <article class="plano destaque">
+                            <span class="etiqueta">
+                                Ganhe 6 meses
+                            </span>
+                            <h4>Mega Plano</h4>
+                            <p class="frase-plano">
+                                Melhor custo-benefício para cuidar de você.
+                            </p>
+                            <p class="taxa">
+                                Taxa de Matrícula:
+                                <strong>R$ 15,00</strong>
+                            </p>
+                            <p class="preco">
+                                R$ 555,00
+                            </p>
+                            <p class="condicao">
+                                Pague 6 meses e ganhe 6 meses.
+                            </p>
+                            <a href="#" class="btn-principal">
+                                Quero este plano
+                            </a>
+                          </article>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Rodape-->
+        <footer id="contato">
+            <div class="footer-info">
+                <h2>Smile Academia</h2>
+                <p>Definitivamente a sua academia.</p>
+            </div>
+            <div class="footer-contato">
+                <h3>Contato</h3>
+                <p>Endereço da academia</p>
+                <p>(00) 00000-0000</p>
+                <p>contato@smileacademia.com</p>
+            </div>
+            <div class="footer-horarios">
+                <h3>Horários</h3>
+                <p>Segunda a sexta: 24 horas</p>
+                <p>Sábado: 08:00 às 15:00</p>
+                <p>Domingo: 09:00 às 14:00</p>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2026 Smile Academia. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+    </body>
+</html>
