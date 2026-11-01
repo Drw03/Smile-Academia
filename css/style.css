@@ -322,6 +322,131 @@ menu lateral aberto
     color: #ccc;
 }
 
+
+/* ==============================
+   CALCULADORA DE PLANOS
+================================ */
+
+.calc-section {
+    background-color: #111111;
+    color: #FFFFFF;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.calc-container {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: #222222;
+    border-radius: 15px;
+    border: 1px solid #FFDE00;
+}
+
+.calc-container h2 {
+    color: #FFDE00;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.calc-subtitle {
+    color: #CCCCCC;
+    margin-bottom: 30px;
+}
+
+.calc-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.calc-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.calc-field label {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.calc-field select,
+.calc-field input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #FFDE00;
+    border-radius: 8px;
+    background-color: #111111;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.calc-result {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #111111;
+    border-radius: 10px;
+}
+
+.calc-result h3 {
+    color: #FFDE00;
+    margin-bottom: 20px;
+}
+
+.calc-result p {
+    color: #CCCCCC;
+    margin-top: 15px;
+}
+
+.calc-result strong {
+    display: block;
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+.calc-result .price {
+    color: #FFDE00;
+    font-size: 1.5rem;
+}
+
+.btn-whatsapp-calc {
+    width: 100%;
+    margin-top: 25px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #FFDE00;
+    color: #111111;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-whatsapp-calc:hover {
+    background-color: #FFFFFF;
+    transform: translateY(-2px);
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+    .calc-section {
+        padding: 50px 15px;
+    }
+
+    .calc-container {
+        padding: 22px;
+    }
+
+    .calc-container h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
 /* 
 =====================
 RESPONSIVIDADE
